@@ -79,7 +79,7 @@ The program lists all the books in the history genre, including "Operation Paper
 
 **Operation**:
 - Search for a book with the ISBN "9780307389374".
-- 
+  
 **Expected Outcome**:
 ```
 The program finds and displays details for "Von Braun: Dreamer of Space, Engineer of War".
