@@ -44,42 +44,50 @@ The purpose of this project is to:
 **Operation**:
 - Add a book with the title "Sunburst and Luminary", author "Don Eyles", ISBN "9780986385933", and genre "computers".
   
-Expected Outcome:
-
+**Expected Outcome**:
+```
 The book is successfully added to the linked list under the "computers" genre.
-Test Case 2: Adding a Book to the Intend to Read Stack
-Operation:
+```
+### Test Case 2: Adding a Book to the Intend to Read Stack
 
-Add the book "Recursion" by "Blake Crouch" to the intend to read stack.
-Expected Outcome:
+**Operation**:
+- Add the book "Recursion" by "Blake Crouch" to the intend to read stack.
 
+**Expected Outcome**:
+```
 The book "Recursion" is added to the stack, making it the last book to be read.
-Test Case 3: Removing a Book from the Intend to Read Stack
-Operation:
+```
+### Test Case 3: Removing a Book from the Intend to Read Stack
 
-Remove the top book from the "Intend to Read" stack.
-Expected Outcome:
-
+**Operation**:
+- Remove the top book from the "Intend to Read" stack.
+  
+**Expected Outcome**:
+```
 The book "Recursion" is removed, and the next book in the stack is now on top.
-Test Case 4: Displaying All Books in a Genre
-Operation:
+```
+### Test Case 4: Displaying All Books in a Genre
 
-Display all books in the "history" genre.
-Expected Outcome:
-
+**Operation**:
+- Display all books in the "history" genre.
+  
+**Expected Outcome**:
+```
 The program lists all the books in the history genre, including "Operation Paperclip" and "Double Cross: The True Story of the D-Day Spies."
-Test Case 5: Searching for a Book by ISBN
-Operation:
+```
+### Test Case 5: Searching for a Book by ISBN
 
-Search for a book with the ISBN "9780307389374".
-Expected Outcome:
-
+**Operation**:
+- Search for a book with the ISBN "9780307389374".
+- 
+**Expected Outcome**:
+```
 The program finds and displays details for "Von Braun: Dreamer of Space, Engineer of War".
-Use Case
-Use Case: Personal Book Collection Management
-Imagine a user who has a vast collection of books and wants to organize them by genre, manage their reading list, and search for specific books by ISBN. The Book Collection Manager allows the user to:
-
-Categorize books into genres like computers, history, science fiction, and more.
-Track which books they intend to read using a stack structure.
-Search for specific books by ISBN to quickly retrieve book information.
+```
+## Use Case
+### Use Case: Personal Book Collection Management
+Imagine a user who has a vast collection of books and wants to organize them by genre, manage their reading list, and search for specific books by ISBN. The _Book Collection Manager_ allows the user to:
+- Categorize books into genres like computers, history, science fiction, and more.
+- Track which books they intend to read using a stack structure.
+- Search for specific books by ISBN to quickly retrieve book information.
 This tool can also be extended to build a more complex library system or personal book recommendation engine based on user reading patterns.
